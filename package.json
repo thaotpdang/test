@@ -1,0 +1,21 @@
+{
+  "name": "playwright-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dangthaodn95/playwright-typescript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dangthaodn95/playwright-typescript/issues"
+  },
+  "homepage": "https://github.com/dangthaodn95/playwright-typescript#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.31.2"
+  }
+}
