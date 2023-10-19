@@ -1,1 +1,1 @@
-# playwright-typescrip
+# playwright-typescript
