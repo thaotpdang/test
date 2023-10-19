@@ -6,7 +6,7 @@ name: deploy report
 on:
   push:
     branches: 
-      - gh-pages
+      - 'gh-pages'
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
