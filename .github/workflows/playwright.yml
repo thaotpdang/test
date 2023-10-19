@@ -47,4 +47,6 @@ jobs:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_branch: gh-pages
         publish_dir: allure-report-history
+    - name: deploy report
+      uses: thaotpdang/test/.github/workflows/deployreport2.yml@main
 
