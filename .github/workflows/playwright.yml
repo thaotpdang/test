@@ -63,6 +63,13 @@ jobs:
       name: github-pages
       url: ${{steps.deployment.outputs.page_url}}
     steps:
+      - name: Load test report history
+        uses: actions/checkout@v4
+        if: always()
+        continue-on-error: true
+        with:
+          ref: gh-pages
+          path: gh-pages
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
