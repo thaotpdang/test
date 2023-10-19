@@ -47,6 +47,7 @@ jobs:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_branch: gh-pages
         publish_dir: allure-report-history
+    - uses: actions/checkout@v3
     - name: deploy report
       uses: ./.github/workflows/deployreport2.yml
 
